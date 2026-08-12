@@ -31,7 +31,7 @@ function Universe() {
                     <img style={{width:"23%"}} src="media/dittoLogo.png"></img>
                     <p className="text-muted mt-4 text-small">Insurance</p>
                 </div>
-                <button mt-3 className='p-2 mt-4 mb-5 btn btn-primary fs-6' style={{width:"17%", margin: "0 auto"}}>Signup Now</button>
+                <button onClick={() => window.location.href = "http://localhost:3000/signup"} mt-3 className='p-2 mt-4 mb-5 btn btn-primary fs-6' style={{width:"17%", margin: "0 auto"}}>Signup Now</button>
             </div>
        </div>
        

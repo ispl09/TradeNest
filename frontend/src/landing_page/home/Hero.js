@@ -7,7 +7,7 @@ function Hero() {
                 <img src='media/homeHero.png' alt="Hero Image" className='mb-5' />
                 <h1 className='mt-5'>Invest in everything</h1>
                 <p className='mt-2'>Online platform to invest in stocks, derivatives, mutual funds, and more</p>
-                <button className='p-2 mt-4 mb-5 btn btn-primary fs-6' style={{width:"17%", margin: "0 auto"}}>Signup Now</button>
+                <button onClick={() => window.location.href = "http://localhost:3000/signup"} className='p-2 mt-4 mb-5 btn btn-primary fs-6' style={{width:"17%", margin: "0 auto"}}>Signup Now</button>
             </div>
         </div>
     );
